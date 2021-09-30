@@ -20,6 +20,11 @@
     <dependencies>
         <dependency>
             <groupId>com.dhome</groupId>
+            <artifactId>common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.dhome</groupId>
             <artifactId>register-microservice</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
@@ -78,6 +83,10 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>1.18.20</version>
+        </dependency>
+        <dependency>
+            <groupId>org.assertj</groupId>
+            <artifactId>assertj-core</artifactId>
         </dependency>
     </dependencies>
 

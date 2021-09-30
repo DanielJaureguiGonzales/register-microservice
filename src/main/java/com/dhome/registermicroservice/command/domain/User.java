@@ -21,6 +21,7 @@ public class User {
     private String LastName;
     private Long Age;
     private Long DNI;
+    private String Email;
     private String Password;
     private String Username;
     private String Address;
@@ -39,6 +40,7 @@ public class User {
                     command.getLastName(),
                     command.getAge(),
                     command.getDNI(),
+                    command.getEmail(),
                     command.getPassword(),
                     command.getUsername(),
                     command.getAddress(),
@@ -56,6 +58,7 @@ public class User {
                         command.getLastName(),
                         command.getAge(),
                         command.getDNI(),
+                        command.getEmail(),
                         command.getPassword(),
                         command.getUsername(),
                         command.getAddress(),
@@ -71,6 +74,7 @@ public class User {
         LastName = event.getLastName();
         Age=event.getAge();
         DNI=event.getDNI();
+        Email=event.getEmail();
         Password=event.getPassword();
         Username=event.getUsername();
         Address=event.getAddress();
@@ -82,6 +86,7 @@ public class User {
         LastName= event.getLastName();
         Age=event.getAge();
         DNI=event.getDNI();
+        Email=event.getEmail();
         Username=event.getUsername();
         Address=event.getAddress();
     }
